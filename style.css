@@ -1,34 +1,30 @@
-/* --- Cài đặt chung cho toàn trang --- */
 body {
-    font-family: Arial, sans-serif; /* Chọn phông chữ dễ đọc */
-    line-height: 1.6; /* Tăng khoảng cách giữa các dòng cho dễ đọc */
-    background-color: #f4f4f4; /* Màu nền xám nhạt cho đỡ chói mắt */
-    color: #333; /* Màu chữ chính (xám đậm) */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0;
     padding: 20px;
 }
 
-/* --- Tạo một "khung" chứa nội dung chính giữa trang --- */
 .container {
-    max-width: 800px; /* Chiều rộng tối đa của nội dung */
-    margin: auto; /* Tự động căn giữa */
-    background: #fff; /* Nền trắng cho phần nội dung */
-    padding: 30px; /* Khoảng cách từ nội dung đến viền khung */
-    border-radius: 8px; /* Bo tròn các góc cho mềm mại */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Tạo bóng đổ nhẹ */
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* --- Tùy chỉnh phần header đầu trang --- */
 header {
-    text-align: center; /* Căn giữa nội dung trong header */
+    text-align: center;
     margin-bottom: 20px;
     border-bottom: 2px solid #eee;
     padding-bottom: 20px;
 }
 
-/* --- Tùy chỉnh các tiêu đề --- */
 h1 {
-    color: #0056b3; /* Màu xanh đậm cho tên của bạn */
+    color: #0056b3;
     margin-bottom: 5px;
 }
 
@@ -36,7 +32,7 @@ h2 {
     color: #333;
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
-    margin-top: 30px; /* Tạo khoảng cách phía trên các mục lớn */
+    margin-top: 30px;
 }
 
 h3 {
@@ -44,7 +40,6 @@ h3 {
     margin-bottom: 5px;
 }
 
-/* --- Định dạng cho các mục kinh nghiệm, hoạt động --- */
 .entry {
     margin-bottom: 20px;
 }
@@ -55,7 +50,6 @@ h3 {
     color: #666;
 }
 
-/* --- Tùy chỉnh danh sách (ul, li) --- */
 ul {
     padding-left: 20px;
     list-style-type: disc;
@@ -65,17 +59,15 @@ li {
     margin-bottom: 5px;
 }
 
-/* --- Tùy chỉnh link --- */
 a {
     color: #007bff;
-    text-decoration: none; /* Bỏ gạch chân mặc định của link */
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Thêm lại gạch chân khi di chuột qua */
+    text-decoration: underline;
 }
 
-/* --- Tùy chỉnh phần footer cuối trang --- */
 footer {
     text-align: center;
     margin-top: 40px;
@@ -85,10 +77,9 @@ footer {
     color: #777;
 }
 
-/* --- Tùy chỉnh cho mục Chứng chỉ --- */
 #chung-chi .entry p {
-    font-style: normal; /* Bỏ in nghiêng cho mục này */
-    font-size: 1.1em; /* Tăng cỡ chữ một chút */
+    font-style: normal;
+    font-size: 1.1em;
     color: #333;
     margin: 10px 0;
 }
