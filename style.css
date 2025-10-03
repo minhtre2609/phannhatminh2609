@@ -84,3 +84,11 @@ footer {
     font-size: 0.9em;
     color: #777;
 }
+
+/* --- Tùy chỉnh cho mục Chứng chỉ --- */
+#chung-chi .entry p {
+    font-style: normal; /* Bỏ in nghiêng cho mục này */
+    font-size: 1.1em; /* Tăng cỡ chữ một chút */
+    color: #333;
+    margin: 10px 0;
+}
