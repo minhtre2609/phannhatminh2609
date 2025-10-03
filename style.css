@@ -1,0 +1,86 @@
+/* --- Cài đặt chung cho toàn trang --- */
+body {
+    font-family: Arial, sans-serif; /* Chọn phông chữ dễ đọc */
+    line-height: 1.6; /* Tăng khoảng cách giữa các dòng cho dễ đọc */
+    background-color: #f4f4f4; /* Màu nền xám nhạt cho đỡ chói mắt */
+    color: #333; /* Màu chữ chính (xám đậm) */
+    margin: 0;
+    padding: 20px;
+}
+
+/* --- Tạo một "khung" chứa nội dung chính giữa trang --- */
+.container {
+    max-width: 800px; /* Chiều rộng tối đa của nội dung */
+    margin: auto; /* Tự động căn giữa */
+    background: #fff; /* Nền trắng cho phần nội dung */
+    padding: 30px; /* Khoảng cách từ nội dung đến viền khung */
+    border-radius: 8px; /* Bo tròn các góc cho mềm mại */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Tạo bóng đổ nhẹ */
+}
+
+/* --- Tùy chỉnh phần header đầu trang --- */
+header {
+    text-align: center; /* Căn giữa nội dung trong header */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+}
+
+/* --- Tùy chỉnh các tiêu đề --- */
+h1 {
+    color: #0056b3; /* Màu xanh đậm cho tên của bạn */
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px; /* Tạo khoảng cách phía trên các mục lớn */
+}
+
+h3 {
+    color: #0056b3;
+    margin-bottom: 5px;
+}
+
+/* --- Định dạng cho các mục kinh nghiệm, hoạt động --- */
+.entry {
+    margin-bottom: 20px;
+}
+
+.entry p {
+    margin-top: 0;
+    font-style: italic;
+    color: #666;
+}
+
+/* --- Tùy chỉnh danh sách (ul, li) --- */
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* --- Tùy chỉnh link --- */
+a {
+    color: #007bff;
+    text-decoration: none; /* Bỏ gạch chân mặc định của link */
+}
+
+a:hover {
+    text-decoration: underline; /* Thêm lại gạch chân khi di chuột qua */
+}
+
+/* --- Tùy chỉnh phần footer cuối trang --- */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #777;
+}
